@@ -9,7 +9,7 @@
 
 - modbus协议是一种一主多从的拓扑结构，主要是应用层软件协议，有关modbus的相关信息，可以自行google、百度。
 
-- STM32实现的Master工程代码在github上，点击获取。
+- STM32实现的Master工程代码在github上，[点击获取](https://github.com/LittleBigQi/ModBus-Master)。
 
 ## 2.开发环境 ##
 
