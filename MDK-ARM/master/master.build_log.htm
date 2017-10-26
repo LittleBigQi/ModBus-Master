@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xu Administrator, jin, LIC=EXJUH-WQIQX-EV91R-K5NYD-YZSP3-JLWMZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\gutaipan\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Modbus Master\MDK-ARM\master.uvprojx
+Project File Date:  10/23/2017
+
+<h2>Output:</h2>
+Rebuild target 'master'
+compiling stm32f0xx_it.c...
+compiling stm32f0xx_hal_msp.c...
+compiling main.c...
+..\Modbus_Master\modbus_master.h(29): warning:  #1295-D: Deprecated declaration ModbusMaster_clearResponseBuffer - give arg types
+   void ModbusMaster_clearResponseBuffer();
+..\Modbus_Master\modbus_master.h(31): warning:  #1295-D: Deprecated declaration ModbusMaster_clearTransmitBuffer - give arg types
+   void ModbusMaster_clearTransmitBuffer();
+../Src/main.c(70): warning:  #177-D: variable "state" was declared but never referenced
+    uint8_t state=0;
+../Src/main.c(71): warning:  #550-D: variable "Input_Result" was set but never used
+        uint16_t  Input_Result[2];
+../Src/main.c: 4 warnings, 0 errors
+compiling ringbuffer.c...
+compiling modbus_master.c...
+..\Modbus_Master\modbus_master.h(29): warning:  #1295-D: Deprecated declaration ModbusMaster_clearResponseBuffer - give arg types
+   void ModbusMaster_clearResponseBuffer();
+..\Modbus_Master\modbus_master.h(31): warning:  #1295-D: Deprecated declaration ModbusMaster_clearTransmitBuffer - give arg types
+   void ModbusMaster_clearTransmitBuffer();
+..\Modbus_Master\modbus_master.c(4): warning:  #177-D: variable "ku8MBIllegalFunction" was declared but never referenced
+   static const uint8_t ku8MBIllegalFunction            = 0x01;
+..\Modbus_Master\modbus_master.c(6): warning:  #177-D: variable "ku8MBIllegalDataValue" was declared but never referenced
+   static const uint8_t ku8MBIllegalDataValue           = 0x03;
+..\Modbus_Master\modbus_master.c(7): warning:  #177-D: variable "ku8MBSlaveDeviceFailure" was declared but never referenced
+   static const uint8_t ku8MBSlaveDeviceFailure         = 0x04;
+..\Modbus_Master\modbus_master.c: 5 warnings, 0 errors
+compiling trans_recieve_buff_control.c...
+..\Modbus_Master\trans_recieve_buff_control.c(33): warning:  #940-D: missing return statement at end of non-void function "Modbus_Master_Rece_Flush"
+  }
+..\Modbus_Master\trans_recieve_buff_control.c(87): warning:  #940-D: missing return statement at end of non-void function "Modbus_Master_Rece_Handler"
+  }
+..\Modbus_Master\trans_recieve_buff_control.c: 2 warnings, 0 errors
+assembling startup_stm32f042x6.s...
+compiling stm32f0xx_hal_pwr_ex.c...
+compiling stm32f0xx_hal.c...
+compiling stm32f0xx_hal_cortex.c...
+compiling stm32f0xx_hal_flash_ex.c...
+compiling stm32f0xx_hal_tim.c...
+compiling stm32f0xx_hal_uart.c...
+compiling stm32f0xx_hal_rcc.c...
+compiling stm32f0xx_hal_i2c_ex.c...
+compiling stm32f0xx_hal_uart_ex.c...
+compiling stm32f0xx_hal_rcc_ex.c...
+compiling stm32f0xx_hal_dma.c...
+compiling stm32f0xx_hal_tim_ex.c...
+compiling stm32f0xx_hal_gpio.c...
+compiling stm32f0xx_hal_i2c.c...
+compiling stm32f0xx_hal_pwr.c...
+compiling stm32f0xx_hal_flash.c...
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=6098 RO-data=250 RW-data=24 ZI-data=1616  
+"master\master.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\Modbus Master\MDK-ARM\RTE
+  D:\gutaipan\keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\gutaipan\keil5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+</pre>
+</body>
+</html>
